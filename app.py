@@ -17,4 +17,4 @@ def generate_qrcode(text):
     img = qr.make_image(fill_color='black', back_color='white')
     img.save("qrimg.png")
 
-generate_qrcode("https://www/codewithtomi.com")
+generate_qrcode("https://www.google.com/")
